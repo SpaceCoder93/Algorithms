@@ -15,7 +15,7 @@ state = 0
 x, y = 0,0
 turn_counter = 0
 
-while number <= 1000:
+while number <= 20:
     x0 = x
     y0 = y
     if state == 0:
@@ -38,6 +38,6 @@ while number <= 1000:
         plt.plot(x, y, "o", color="red")
     else:
         pass
-    print(number)
+    print(x,y)
 
 plt.show()
